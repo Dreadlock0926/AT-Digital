@@ -31,11 +31,13 @@
     display: flex;
     justify-content: center;
     border-top: 1px solid white;
-    width: 95%;
+    width: 90%;
+    margin-right: 5%;
+    padding-right: 50px;
 }
 
 .at-f-priv-container ul li {
-    padding-inline: 15px;
+    padding-inline: 10px;
 }
 
 .atfp-first-li {

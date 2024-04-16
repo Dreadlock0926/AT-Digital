@@ -1,0 +1,72 @@
+.at-footer {
+    font-family: 'Inter', sans-serif;
+    background-color: #6B3CC9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.at-footer-info {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.at-title-container p {
+    max-width: 450px;
+}
+
+.tech-list {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.tech-list li {
+    margin-block: 10px;
+}
+
+.at-f-priv-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+    width: 95%;
+}
+
+.at-f-priv-container ul li {
+    padding-inline: 15px;
+}
+
+.atfp-first-li {
+    border-right: 1px solid white;
+}
+
+.at-f-priv-container ul {
+    list-style: none;
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .at-footer-info {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .at-technologies, .at-services {
+        grid-row: 2;
+    }
+}
+
+@media (min-width: 1024px) {
+    .at-footer-info {
+        grid-template-columns: 3fr 1fr 1fr;
+    }
+
+    .at-technologies, .at-services {
+        grid-row: auto;
+    }
+
+    .at-f-priv-container {
+        width: 50%;
+    }
+}

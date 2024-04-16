@@ -55,6 +55,7 @@ body {
   color: #6b3cc9;
   text-transform: capitalize;
   text-align: center;
+  padding-inline: 10px;
 }
 
 .content-info p {

@@ -9,12 +9,13 @@
     padding-block: 20px;
     padding-inline: 5%;
     align-items: center;
+    position: relative;
 }
 
 .nb-links {
     text-decoration: none;
     list-style: none;
-    display: flex;
+    display: none;
     justify-content: space-between;
     text-transform: uppercase;
 }
@@ -22,4 +23,62 @@
 .nb-link {
     font-size: 0.8rem;
     margin-left: 25px;
+}
+
+.line {
+    margin-top: 5px;
+    width: 31px;
+    height: 4px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.hamburger-links {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 400px;
+}
+
+.hamburger-link {
+    margin-bottom: 40px;
+}
+
+.toggled-cross {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 650px) {
+    .nb-links {
+        display: flex;
+    }
+    .hamburger-menu {
+        display: none;
+    }
 }

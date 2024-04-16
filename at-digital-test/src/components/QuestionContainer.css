@@ -1,0 +1,33 @@
+.question {
+ background-color: #FAF8FF;   
+ color: black;
+ padding-inline: 10px;
+ padding-block: 20px;
+ margin-inline: 5px;
+ margin-block: 20px;
+ border-radius: 10px;
+}
+
+.qs-h3 {
+    color: black;
+    font-weight: 400;
+    width: 80%;
+}
+
+.purple {
+    color: #6B3CC9;
+}
+
+.ques-toggler {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.ans-tex {
+    color: #6F6C90;
+}

@@ -4,6 +4,7 @@ import "./App.css";
 import content1 from "./assets/content1.png";
 import content2 from "./assets/content2.png";
 import GeneralButton from "./components/GeneralButton";
+import QuestionContainer from "./components/QuestionContainer";
 
 function App() {
   return (
@@ -47,7 +48,12 @@ function App() {
               <GeneralButton text={"Learn more"} />
             </div>
           </div>
-          <div className="faq"></div>
+          <div className="faq">
+            <h2>Frequently asked questions</h2>
+            <QuestionContainer />
+            <QuestionContainer />
+            <QuestionContainer />
+          </div>
         </div>
       </div>
       <Footer />

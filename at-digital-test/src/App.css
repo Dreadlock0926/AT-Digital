@@ -58,6 +58,15 @@ body {
   color: black;
 }
 
+.faq {
+  width: 80%;
+}
+
+.faq h2 {
+  color: #6b3cc9;
+  text-align: center;
+}
+
 .hero {
   background-image: url("./assets/hero.jpg");
   width: 100%;
